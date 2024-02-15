@@ -1,0 +1,154 @@
+:root {
+    --primary-color: white;
+    --text-color: #ffbc4b;
+    --background-light: #ffffff;
+    --header-height: 100vh;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 110%;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #394c4a;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+.header-background {
+    background-color: white;
+    background-size: cover;
+    text-align: center;
+    height: 50vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background: #ffbc4b;
+    padding: 5px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10;
+}
+
+#about {
+    background-color: #ffbc4b; 
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 40px;
+    border-radius: 0.5%;
+    text-align: center;
+}
+
+.profile-photo {
+    max-width: 40%;
+    height: auto; 
+    border-radius: 50%; 
+}
+
+#resume {
+    background-color: #ffbc4b; 
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 40px;
+    border-radius: 0.5%;
+    text-align: center;
+}
+
+/* .experience {
+    width: 80vw;
+    height: 200px;
+    background-color: white;
+    border: 5px solid #e8a737;
+    margin: 5px;
+    display: inline-block;
+    line-height: 200px;
+} */
+
+#contact {
+    background-color: #ffbc4b; 
+    padding: 15px;
+    border-radius: 0.5%;
+    text-align: center;
+}
+
+.td-btn {
+    padding: 12px 36px;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+     background-color: white; 
+
+}
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    color: #3d4047;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32;
+}
+
+h3 {
+    color: #3d4047;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24;
+}
+
+a {
+    color: #29a598;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #3d4047;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+  
+  .profile-photo {
+        width: 50%; 
+        margin: 0 auto; 
+    }
+}
