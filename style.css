@@ -101,14 +101,14 @@ nav ul li a {
 
 #contact {
     background-color: #ffbc4b; 
-    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
     border-radius: 0.5%;
     text-align: center;
 }
 
 .td-btn {
     padding: 12px 36px;
-    text-transform: uppercase;
     transition: background-color 0.2s ease-in-out;
      background-color: white; 
 
