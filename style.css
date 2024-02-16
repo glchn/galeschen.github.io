@@ -117,9 +117,9 @@ nav ul li a {
 }
 
 footer {
-    background-color: #f4f4f4;
+    background-color: #ffbc4b;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 h1 {
@@ -134,17 +134,20 @@ h2 {
     font-size: 42;
 }
 
-
 h3 {
-    color: #ffbc4b;
+    color: #fabf59;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 32;
+    font-size: 30;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 h4 {
     color: #5c606a;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 a.one {
