@@ -13,8 +13,7 @@ html {
     font-size: 110%;
 }
 
-p {
-    font-family: Arial, Helvetica, sans-serif;
+p{
     font-size: 10;
 }
 
@@ -22,7 +21,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    color: #394c4a;
+    font-size: 10;
+    color: #717681;
     line-height: 1.5;
     overflow-x: hidden;
 }
@@ -59,14 +59,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: ffbc4b;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10;
 }
 
 #about {
-    background-color: #ffbc4b; 
+    background-color: white; 
     padding-left: 40px;
     padding-right: 40px;
     margin: 40px;
@@ -81,7 +81,7 @@ nav ul li a {
 }
 
 #resume {
-    background-color: #ffbc4b; 
+    background-color: white; 
     padding-left: 40px;
     padding-right: 40px;
     margin: 40px;
@@ -100,9 +100,11 @@ nav ul li a {
 } */
 
 #contact {
-    background-color: #ffbc4b; 
+    background-color: white; 
     padding-left: 40px;
     padding-right: 40px;
+    margin: 40px;
+    padding: 15px;
     border-radius: 0.5%;
     text-align: center;
 }
@@ -120,24 +122,46 @@ footer {
     padding: 10px;
 }
 
+h1 {
+    color: #ffbc4b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42;
+}
+
 h2 {
-    color: #3d4047;
+    color: #ffbc4b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42;
+}
+
+
+h3 {
+    color: #ffbc4b;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 32;
 }
 
-h3 {
-    color: #3d4047;
+h4 {
+    color: #5c606a;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 24;
+    font-size: 22;
 }
 
-a {
-    color: #29a598;
+a.one {
+    color: #ffffff;
     transition: color 0.2s ease-in-out;
 }
 
-a:hover {
+a.one:hover {
+    color: #3d4047;
+}
+
+a.two {
+    color: #ffbc4b;
+    transition: color 0.2s ease-in-out;
+}
+
+a.two:hover {
     color: #3d4047;
 }
 
