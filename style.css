@@ -179,3 +179,7 @@ a.two:hover {
         margin: 0 auto; 
     }
 }
+
+.site-footer {
+    background: #ffbc4b;
+  }
